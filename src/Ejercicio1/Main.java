@@ -1,9 +1,20 @@
 package Ejercicio1;
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("pilila");
+        CuentaCorriente c1 = new CuentaCorriente("55376232Y","Mauro");
+        CuentaCorriente c2 = new CuentaCorriente("55346234E",0);
+        CuentaCorriente completa= new CuentaCorriente("22233344E","Kiriku",8);
+
+        //pruebas C1
+        c1.ingresarDinero(200);
+        System.out.println(c1.saldo);
+        c1.retirarDinero(100);
+        c1.mostrarInformacion();
+
+        //pruebas C2
+        System.out.println(c2.saldo);
+
+        //pruebas C3
+
     }
 }
