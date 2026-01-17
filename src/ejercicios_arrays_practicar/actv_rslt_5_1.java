@@ -1,3 +1,5 @@
+package ejercicios_arrays_practicar;
+
 import java.util.Arrays;
 import java.util.Random;
 

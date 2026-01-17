@@ -7,14 +7,14 @@ public class Main {
 
         //pruebas C1
         c1.ingresarDinero(200);
-        System.out.println(c1.saldo);
+        System.out.println(c1.DNI);
         c1.retirarDinero(100);
         c1.mostrarInformacion();
 
         //pruebas C2
-        System.out.println(c2.saldo);
+        System.out.println(c2.DNI);
 
         //pruebas C3
-
+        System.out.println(completa.DNI);
     }
 }

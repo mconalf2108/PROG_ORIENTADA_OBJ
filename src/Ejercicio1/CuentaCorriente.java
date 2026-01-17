@@ -2,11 +2,11 @@ package Ejercicio1;
 
 public class CuentaCorriente {
     String DNI;
-    String nombreTitular;
-    double saldo;
-
+    public String nombreTitular;
+    private double saldo;
     static String nombreBanco;
-
+    public Gestor gestor;
+    //EJERCICIO 3
     public  String getnombreBanco(){
         return nombreBanco;
     }
@@ -18,6 +18,7 @@ public class CuentaCorriente {
         this.nombreTitular = nombreTitular;
         this.saldo = 0;
     }
+    //EJERCICIO 2
     public CuentaCorriente(String DNI, double saldo){
         this.DNI = DNI;
         this.nombreTitular = ""; //se pone cadena vacia para evitar el null exception
@@ -28,6 +29,7 @@ public class CuentaCorriente {
         this.DNI = DNI;
         this.nombreTitular = nombreTitular;
         this.saldo = 0;
+        // Aqui hemos sobrecargado los constructores con datos diferentes. )
     }
 
     void retirarDinero( double saldoRetirado){
@@ -49,6 +51,11 @@ public class CuentaCorriente {
         System.out.println("su DNI es" + this.DNI);
         System.out.println("su saldo es de " + this.saldo);
     }
-
-
+    // EJERCICIO 4
+    //si quisieramos qu enada mas crear la cuenta bancaria se asignara un gestor,
+    //lo tendriamos que poner donde definimos la función de cuentaCorriente
+    //pero como solo queremos asignarlo cuando sea necesario, ponemos un SET.
+    public void setGestor(Gestor gestor) {
+        this.gestor = gestor;
+    }
 }
