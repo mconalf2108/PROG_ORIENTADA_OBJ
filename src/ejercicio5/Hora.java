@@ -43,6 +43,11 @@ public class Hora {
         }
 
     }
+
+    public Hora(int horas) {
+        this.horas = horas;
+    }
+
     public void sumarUnSegundo(){
         segundos = segundos++;
         if(segundos>59){

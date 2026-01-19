@@ -14,41 +14,41 @@ public class Texto {
     }
     public void añadirCaracterPrincipio(char caracter){
         String añadido;
-        añadido =  caracter + cadena ;
+        añadido =  caracter + this.cadena ;
         if(añadido.length()<= longitudMaxima){
-            cadena = añadido;
+            this.cadena = añadido;
             fechaUltimaModificacion= LocalDateTime.now();;
         }
     }
     public void añadirCaracterFinal(char caracter){
     String añadido;
-    añadido =  cadena + caracter ;
+    añadido =  this.cadena + caracter ;
     if(añadido.length()<= longitudMaxima){
-        cadena = añadido;
+        this.cadena = añadido;
         fechaUltimaModificacion= LocalDateTime.now();;
     }
     }
     public void añadirCadenaPrincipio(String valorAñadir){
         String añadido;
-        añadido = valorAñadir + cadena;
+        añadido = valorAñadir + this.cadena;
         if(añadido.length() <=longitudMaxima){
-            cadena = añadido;
+            this.cadena = añadido;
             fechaUltimaModificacion= LocalDateTime.now();;
         }
     }
 
     public void añadirCadenaFinal(String valorAñadir){
         String añadido;
-        añadido = cadena +  valorAñadir;
+        añadido = this.cadena +  valorAñadir;
         if(añadido.length() <=longitudMaxima){
-            cadena = añadido;
+            this.cadena = añadido;
             fechaUltimaModificacion= LocalDateTime.now();;
         }
     }
     public int contarVocales(){
         int contadorVocales = 0;
-        for (int i = 0; i < cadena.length(); i++) {
-            char letra = Character.toLowerCase(cadena.charAt(i));
+        for (int i = 0; i < this.cadena.length(); i++) {
+            char letra = Character.toLowerCase(this.cadena.charAt(i));
             if (letra == 'a' ||letra =='e' ||letra == 'i'
                     ||letra == 'o' ||letra == 'u' ) {
                 contadorVocales++;
@@ -57,7 +57,7 @@ public class Texto {
         }return contadorVocales;
     }
     public void mostrarInformacion(){
-        System.out.println("La cadena resultante es "+cadena);
+        System.out.println("La cadena resultante es "+this.cadena);
         System.out.println("la cantidad de vocales "+contarVocales());
         System.out.println("La longitud maxima que permitiste fue "+longitudMaxima);
         System.out.println("Fecha creación: " + fechaCreacion);
