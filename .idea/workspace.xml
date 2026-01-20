@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c60a0ddb-e9e6-43d6-bea3-b5ef6f7a172e" name="Changes" comment="practicas sabado">
-      <change afterPath="$PROJECT_DIR$/src/Agenda/Agenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Agenda/Contacto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Agenda/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio11/Lista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio11/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio11/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio11/Lista.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +29,12 @@
     &quot;assignee&quot;: &quot;mconalf2108&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/mconalf2108/PROG_ORIENTADA_OBJ.git",
-    "accountId": "f78cf4d6-931e-4388-9ceb-3f606c92b035"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mconalf2108/PROG_ORIENTADA_OBJ.git&quot;,
+    &quot;accountId&quot;: &quot;f78cf4d6-931e-4388-9ceb-3f606c92b035&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -187,6 +183,7 @@
       <workItem from="1768763615477" duration="1086000" />
       <workItem from="1768842639701" duration="3647000" />
       <workItem from="1768857366124" duration="672000" />
+      <workItem from="1768923482036" duration="6249000" />
     </task>
     <task id="LOCAL-00001" summary="prueba">
       <option name="closed" value="true" />
