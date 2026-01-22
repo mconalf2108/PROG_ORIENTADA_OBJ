@@ -7,6 +7,7 @@
     <list default="true" id="c60a0ddb-e9e6-43d6-bea3-b5ef6f7a172e" name="Changes" comment="practicas sabado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ejercicio11/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio11/Lista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio11/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio11/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +30,12 @@
     &quot;assignee&quot;: &quot;mconalf2108&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/mconalf2108/PROG_ORIENTADA_OBJ.git&quot;,
-    &quot;accountId&quot;: &quot;f78cf4d6-931e-4388-9ceb-3f606c92b035&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mconalf2108/PROG_ORIENTADA_OBJ.git",
+    "accountId": "8d5c8ffd-d87f-4e89-ae6f-129f17203ebc"
   }
-}</component>
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -51,51 +52,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Ejercicio8.main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.actv_rslt_5_2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.actv_rslt_5_3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.actv_rslt_5_4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.actv_rslt_5_5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.actv_rslt_5_6.executor&quot;: &quot;Run&quot;,
-    &quot;Application.actv_rslt_5_7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ejercicio1_1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ejercicio2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ejercicio6.main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/1daw-mconalf2108/IdeaProjects/PROG ORIENTADA OBJ/src/Main.java&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Ejercicio11.main.executor": "Run",
+    "Application.Ejercicio8.main.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.actv_rslt_5_2.executor": "Run",
+    "Application.actv_rslt_5_3.executor": "Run",
+    "Application.actv_rslt_5_4.executor": "Run",
+    "Application.actv_rslt_5_5.executor": "Run",
+    "Application.actv_rslt_5_6.executor": "Run",
+    "Application.actv_rslt_5_7.executor": "Run",
+    "Application.ejercicio1_1.executor": "Run",
+    "Application.ejercicio2.executor": "Run",
+    "Application.ejercicio6.main.executor": "Run",
+    "Application.main.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/1daw-mconalf2108/IdeaProjects/PROG ORIENTADA OBJ/src/Main.java",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Ejercicio1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ejercicio8.main">
-    <configuration name="Ejercicio8.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejercicio8.main" />
+  <component name="RunManager" selected="Application.Ejercicio11.main">
+    <configuration name="Ejercicio11.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercicio11.main" />
       <module name="PROG ORIENTADA OBJ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ejercicio8.*" />
+          <option name="PATTERN" value="Ejercicio11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ejercicio1_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intensivo.ejercicio1_1" />
+    <configuration name="Ejercicio8.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ejercicio8.main" />
       <module name="PROG ORIENTADA OBJ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="intensivo.*" />
+          <option name="PATTERN" value="Ejercicio8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,13 +159,21 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ejercicio11.main" />
         <item itemvalue="Application.Ejercicio8.main" />
         <item itemvalue="Application.ejercicio6.main" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.ejercicio2" />
-        <item itemvalue="Application.ejercicio1_1" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -183,7 +193,9 @@
       <workItem from="1768763615477" duration="1086000" />
       <workItem from="1768842639701" duration="3647000" />
       <workItem from="1768857366124" duration="672000" />
-      <workItem from="1768923482036" duration="6249000" />
+      <workItem from="1768923482036" duration="6436000" />
+      <workItem from="1769018666133" duration="148000" />
+      <workItem from="1769019001345" duration="2864000" />
     </task>
     <task id="LOCAL-00001" summary="prueba">
       <option name="closed" value="true" />
@@ -225,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768752960073</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="practicas sabado">
+      <option name="closed" value="true" />
+      <created>1768929964118</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1768929964118</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -36,6 +36,6 @@ public class main {
         System.out.println("5. Añadiendo '!!!' ");
         miTexto.añadirCadenaFinal("!!!");
         miTexto.mostrarInformacion();
-
+**/
     }
 }

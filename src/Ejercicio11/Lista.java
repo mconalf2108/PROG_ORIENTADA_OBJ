@@ -61,7 +61,24 @@ public class Lista {
             this.tabla = temporal;
         }
     }
-
-
-
+    public void eliminarNumeroPorIndice(int indice) {
+        if (indice >= 0 && indice < tabla.length) {
+            Integer[] temporal = new Integer[tabla.length - 1];
+            /**for (int i = 0; i < indice; i++) {
+             temporal[i] = this.tabla[i];
+             }esto está bien hecho, pero no hacia falta, podemos hacer esto:**/
+            System.arraycopy(this.tabla, 0, temporal, 0,indice);
+            System.arraycopy(this.tabla, indice +1, temporal, indice, (tabla.length - indice-1));
+            this.tabla = temporal;
+        }
+    }
+    public void mostrarElementos() {
+        System.out.println(Arrays.toString(this.tabla));
+    }
+    public void añadirLista(Integer [] nuevaLista){
+        Integer [] listaAñadida = new Integer[nuevaLista.length + tabla.length];
+        System.arraycopy(this.tabla,0,listaAñadida,0,this.tabla.length);
+        System.arraycopy(nuevaLista,0,listaAñadida,tabla.length,nuevaLista.length);
+        this.tabla = listaAñadida;
+    }
 }
