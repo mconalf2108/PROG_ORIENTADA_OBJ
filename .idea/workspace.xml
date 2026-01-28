@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c60a0ddb-e9e6-43d6-bea3-b5ef6f7a172e" name="Changes" comment="practicas sabado">
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio14/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicio13/Pila.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicio13/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pelicula/Catalogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pelicula/Pelicula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pelicula/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Restaurante/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Restaurante/Plato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Restaurante/Restaurante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Restaurante/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +62,7 @@
     "Application.Ejercicio11.main.executor": "Run",
     "Application.Ejercicio8.main.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Pelicula.main.executor": "Run",
     "Application.actv_rslt_5_2.executor": "Run",
     "Application.actv_rslt_5_3.executor": "Run",
     "Application.actv_rslt_5_4.executor": "Run",
@@ -93,7 +98,7 @@
       <recent name="Ejercicio1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ejercicio13.main">
+  <component name="RunManager" selected="Application.Pelicula.main">
     <configuration name="Ejercicio11.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ejercicio11.main" />
       <module name="PROG ORIENTADA OBJ" />
@@ -113,6 +118,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Ejercicio8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pelicula.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pelicula.main" />
+      <module name="PROG ORIENTADA OBJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pelicula.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,26 +164,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ejercicio5.main" />
-      <module name="PROG ORIENTADA OBJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ejercicio5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pelicula.main" />
         <item itemvalue="Application.ejercicio13.main" />
         <item itemvalue="Application.Ejercicio11.main" />
         <item itemvalue="Application.Ejercicio8.main" />
         <item itemvalue="Application.ejercicio6.main" />
-        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +203,8 @@
       <workItem from="1768923482036" duration="6436000" />
       <workItem from="1769018666133" duration="148000" />
       <workItem from="1769019001345" duration="2864000" />
-      <workItem from="1769101726902" duration="4343000" />
+      <workItem from="1769101726902" duration="4598000" />
+      <workItem from="1769445506603" duration="11802000" />
     </task>
     <task id="LOCAL-00001" summary="prueba">
       <option name="closed" value="true" />
@@ -256,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769101754884</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="practicas sabado">
+      <option name="closed" value="true" />
+      <created>1769106966147</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1769106966147</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
