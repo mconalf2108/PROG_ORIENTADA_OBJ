@@ -1,9 +1,11 @@
 package Ejercicio8;
 
 public class Bombilla {
-    private boolean bombilla;
     static boolean interruptorGeneral; // on / of
     private boolean interruptorParticular ;
+    public Bombilla(){
+        interruptorGeneral=false;
+    }
 
     public void encenderBombilla() {
         this.interruptorParticular = true;
