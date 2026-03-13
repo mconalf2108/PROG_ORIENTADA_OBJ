@@ -6,6 +6,19 @@ public class Comparsa extends AgrupacionOficial {
         super(nombre, autor, autor_musica, autor_letras, TipoDisfraz, puntosObtenidos);
         this.empresaAtrezzo = empresaAtrezzo;
     }
+    @Override
+    public void cantar_la_presentacion() {
+        System.out.println("Cantando la presentación de la Comparsa con nombre " + this.nombre);
+    }
+
+    @Override
+    public void hacer_tipo() {
+
+    }
 
 
+    @Override
+    public void caminito_del_falla() {
+
+    }
 }

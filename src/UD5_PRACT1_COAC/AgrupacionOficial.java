@@ -12,31 +12,26 @@ public abstract class AgrupacionOficial extends Agrupacion {
     }
 
     Integrante lista[] = new Integrante[0];
-    Integrante temporal[] = new Integrante[lista.length];
 
     public void insertar_integrante(Integrante i) {
-        for (int i1 = 0; i1 < this.lista.length; i1++) {
-            this.temporal = Arrays.copyOf(this.lista, this.lista.length + 1);
-            this.temporal[i1] = i;
-            this.lista = this.temporal;
-        }
+        this.lista = Arrays.copyOf(this.lista, this.lista.length + 1);
+        this.lista[this.lista.length - 1] = i;
     }
     public boolean eliminar_integrante(Integrante i){
         boolean exito = false;
         int indice=0;
-        int pos =0;
-        while(!exito){
-            if(i.equals(lista[indice])){
+        while(!exito && indice< lista.length){
+            if(this.lista[indice].equals(i)){
+                Integrante[] temporal = new Integrante[this.lista.length - 1];
+                System.arraycopy(this.lista,0,temporal,0,indice);
+                System.arraycopy(this.lista,indice+1,temporal,indice,this.lista.length-1);
+                lista = temporal;
                 exito=true;
-                pos = indice;
             }indice++;
         }
-        Integrante temporal[] = new Integrante[lista.length-1];
-        System.arraycopy(this.lista,0,temporal,0,pos);
-        System.arraycopy(this.lista,pos,temporal,pos+1,this.lista.length-1-pos);
-        lista = temporal;
         return exito;
     }
+    public abstract void caminito_del_falla();
 
 }
 

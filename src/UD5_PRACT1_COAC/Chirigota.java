@@ -6,4 +6,18 @@ public class Chirigota extends AgrupacionOficial{
         super(nombre, autor, autor_musica, autor_letras, TipoDisfraz, puntosObtenidos);
         this.numeroCouples = numeroCuples;
     }
+    @Override
+    public void cantar_la_presentacion() {
+        System.out.println("Cantando la presentación de la Chirigota con nombre " + this.nombre);
+    }
+
+    @Override
+    public void hacer_tipo() {
+        System.out.println("La Chirigota " + this.nombre + " va de " + this.TipoDisfraz);
+    }
+
+    @Override
+    public void caminito_del_falla() {
+
+    }
 }

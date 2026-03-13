@@ -9,4 +9,17 @@ public class Coro extends AgrupacionOficial{
         this.bandurrias = bandurrias;
         this.guitarras = guitarras;
     }
+    @Override
+    public void cantar_la_presentacion() {
+        System.out.println("Cantando la presentación de el Coro con nombre " + this.nombre);
+    }
+    @Override
+    public void hacer_tipo() {
+        System.out.println("El Coro " + this.nombre + " va de " + this.TipoDisfraz);
+    }
+
+    @Override
+    public void caminito_del_falla() {
+
+    }
 }

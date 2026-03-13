@@ -1,0 +1,3 @@
+¡Hola! Esta es la primera línea de mi archivo.
+Esta es la segunda línea, leída con un BufferedReader.
+Y esta es la última línea. ¡El Búfer funciona a la perfección!

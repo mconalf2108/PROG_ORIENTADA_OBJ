@@ -14,7 +14,7 @@ public abstract class Agrupacion {
         this.autor_letras = autor_letras;
         this.TipoDisfraz= TipoDisfraz;
     }
-    public void cantar_la_presentacion(){
-        System.out.println("Cantando la presentacion de "+this.nombre);
-    }
+    public abstract void cantar_la_presentacion();
+    public abstract void hacer_tipo();
+
 }
