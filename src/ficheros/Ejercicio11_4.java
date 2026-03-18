@@ -24,9 +24,9 @@ public class Ejercicio11_4 {
             System.out.println("Los datos recuperados son ");
             System.out.println(Arrays.toString(tabla));
         } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
+            System.out.println("Error: No se ha podido encontrar el archivo 'notas.dat'.");
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            System.out.println("Error de lectura/escritura en el fichero: " + e.getMessage());
         }
     }
 }

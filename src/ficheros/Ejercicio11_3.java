@@ -23,9 +23,9 @@ public class Ejercicio11_3 {
                     oos.writeDouble(tabla[i]);
             }
         } catch (FileNotFoundException e) {
-            System.out.println("ERROR: "+ e.getMessage());
+            System.out.println("Error: No se ha podido encontrar el archivo 'notas.dat'.");
         } catch (IOException e) {
-            System.out.println("ERROR: "+ e.getMessage());
+            System.out.println("Error de lectura/escritura en el fichero: " + e.getMessage());
         }
     }
 }
