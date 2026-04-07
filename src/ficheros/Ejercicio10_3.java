@@ -15,7 +15,6 @@ public class Ejercicio10_3 {
             while(linea != null){
                 System.out.println(linea);
                 linea = bufer.readLine();
-
             }
             bufer.close();
         } catch (IOException e) {
