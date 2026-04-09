@@ -11,14 +11,16 @@ public class Ejercicio1 {
         while(num != -1){
             lista.add(num);
             num = sc.nextInt();
+
         }
         System.out.println("Coleccion inicial: "+lista);
         sc.close();
         System.out.println("Numeros pares:");
         for ( Integer i : lista ){
-            if(i%2==0){
-                System.out.println(i);
-            }
+           if(i%2==0){
+               System.out.println(i);
+           }
+
         }
     }
 }
