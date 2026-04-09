@@ -1,5 +1,6 @@
 package Colecciones;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class Ejercicio1 {
@@ -22,5 +23,26 @@ public class Ejercicio1 {
            }
 
         }
+        System.out.println("Eliminando numeros los cuales son multiplos de 3");
+        System.out.println("Eliminando múltiplos de 3 (Con Iterador)...");
+
+// 1. Creamos el iterador enganchado a nuestra lista
+        Iterator<Integer> it = lista.iterator();
+
+// 2. El iterador pregunta: "¿Hay un siguiente elemento en la lista?"
+        while (it.hasNext()) {
+
+            // 3. Damos un paso adelante y leemos ese número
+            Integer numero = it.next();
+
+            // 4. Comprobamos si es múltiplo de 3
+            if (numero % 3 == 0) {
+                // 5. ¡LA MAGIA! Usamos el remove() DEL ITERADOR, no el de la lista.
+                // Esto borra el elemento de forma 100% segura.
+                it.remove();
+            }
+        }
+
+        System.out.println("Colección final: " + lista);
     }
 }
