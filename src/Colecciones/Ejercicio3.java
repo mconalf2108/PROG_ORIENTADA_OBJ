@@ -2,7 +2,7 @@ package Colecciones;
 
 import java.util.ArrayList;
 
-public class Ejericicio3 {
+public class Ejercicio3 {
     public static void main(String[] args) {
         ArrayList<Integer> lista = new ArrayList<>();
         for (int i = 1; i <= 100; i++) {

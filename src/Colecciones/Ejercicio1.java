@@ -31,14 +31,9 @@ public class Ejercicio1 {
 
 // 2. El iterador pregunta: "¿Hay un siguiente elemento en la lista?"
         while (it.hasNext()) {
-
-            // 3. Damos un paso adelante y leemos ese número
             Integer numero = it.next();
-
             // 4. Comprobamos si es múltiplo de 3
             if (numero % 3 == 0) {
-                // 5. ¡LA MAGIA! Usamos el remove() DEL ITERADOR, no el de la lista.
-                // Esto borra el elemento de forma 100% segura.
                 it.remove();
             }
         }
