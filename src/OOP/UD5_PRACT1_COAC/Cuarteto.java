@@ -1,0 +1,23 @@
+package OOP.UD5_PRACT1_COAC;
+
+public class Cuarteto extends AgrupacionOficial{
+    int numeroMiembros;
+    public Cuarteto(String nombre, String autor, String autor_musica, String autor_letras, String TipoDisfraz, int puntosObtenidos, int numeroMiembros) {
+        super(nombre, autor, autor_musica, autor_letras, TipoDisfraz, puntosObtenidos);
+        this.numeroMiembros = numeroMiembros;
+    }
+    @Override
+    public void cantar_la_presentacion() {
+        System.out.println("Cantando la presentación del Cuarteto con nombre " + this.nombre);
+    }
+
+    @Override
+    public void hacer_tipo() {
+        System.out.println("El Cuarteto " + this.nombre + " va de " + this.TipoDisfraz);
+    }
+
+    @Override
+    public void caminito_del_falla() {
+
+    }
+}

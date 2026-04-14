@@ -1,5 +1,0 @@
-package ExamenUD5_Ejercicio1;
-
-public enum Categoria{
-    SENIOR_MASCULINO,SENIOR_FEMENINO,VETERANO_MASCULINO,VETERANO_FEMENINO;
-}
