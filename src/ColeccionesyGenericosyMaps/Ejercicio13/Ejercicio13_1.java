@@ -1,10 +1,10 @@
-package ColeccionesyGenericosyMaps.Ejercicio13_1;
+package ColeccionesyGenericosyMaps.Ejercicio13;
 
 public class Ejercicio13_1 {
     public static void main(String[] args) {
-        GenerarSaludo<String> saludoParaNombres = (nombre) ->
+        Saludo<String> saludoParaNombres = (nombre) ->
                 "Hola,"+ nombre+" este es un saludo para nombres";
-        GenerarSaludo<Cliente> saludoParaCliente = (cliente) ->
+        Saludo<Cliente> saludoParaCliente = (cliente) ->
                 "Buenas "+ cliente.getNombre() +" bienvenido";
 
         System.out.println("--- PRUEBAS CON STRINGS ---");

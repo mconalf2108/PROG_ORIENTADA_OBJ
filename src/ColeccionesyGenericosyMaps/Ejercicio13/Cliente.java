@@ -1,4 +1,4 @@
-package ColeccionesyGenericosyMaps.Ejercicio13_1;
+package ColeccionesyGenericosyMaps.Ejercicio13;
 
 public class Cliente {
     private String nombre;
