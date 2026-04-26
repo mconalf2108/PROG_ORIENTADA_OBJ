@@ -1,6 +1,10 @@
 package ColeccionesyGenericosyMaps.Ejercicio13;
 
-public class Ejercicio13_1 {
+import java.util.Arrays;
+
+import static java.lang.CharSequence.compare;
+
+public class Ejercicio13_1_13_11 {
     public static void main(String[] args) {
         Saludo<String> saludoParaNombres = (nombre) ->
                 "Hola,"+ nombre+" este es un saludo para nombres";
@@ -17,5 +21,10 @@ public class Ejercicio13_1 {
 
         System.out.println(saludoParaCliente.generar(cliente2));
         System.out.println(saludoParaCliente.generar(cliente1));
+        Cliente [] tClie = {cliente1, cliente2};
+        Arrays.stream(tClie)
+                .sorted((c1, c2) -> compare(c1.getNombre(), c2.getNombre()))
+                .forEach(cliente ->
+                        System.out.println("El nombre del cliente es " + cliente.getNombre() + " y su edad es de " + cliente.getEdad()));
     }
 }
