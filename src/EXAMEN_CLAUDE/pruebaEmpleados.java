@@ -12,7 +12,7 @@ public class pruebaEmpleados {
         ));
         // Ejercicio 1a
         /**Crear un Set<String> llamado departamentosUnicos que contenga, sin duplicados, todos
-los departamentos presentes en la lista. Imprimir su contenido por consola.**/
+        los departamentos presentes en la lista. Imprimir su contenido por consola.**/
 
         Set<String> departamentosUnicos = new HashSet<String>();
         for (Empleado emp : empleados) {
